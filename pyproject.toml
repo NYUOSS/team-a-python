@@ -14,11 +14,24 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 
-
 [tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
 flake8 = "^6.1.0"
 pytest = "^7.4.2"
+
+[tool.black]
+line-length = 88
+preview = true
+target-version = ['py37']
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | migrations
+  | scripts
+)/
+'''
+
 
 [build-system]
 requires = ["poetry-core"]
