@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "main"
+version = "0.1.0"
+description = "Technology Template Repository for Python"
+authors = [
+    "Venu Vardhan Reddy Tekula <vt2182@nyu.edu>",
+    "Carolina Martin <cm5685@nyu.edu>",
+    "Jessie Theisen <jt1321@nyu.edu>",
+    "Sonia Susanto <ss9040@nyu.edu>",
+    "Yamini Lakshmi Narasimhan <yl9822@nyu.edu>"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
