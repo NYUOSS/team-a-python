@@ -1,7 +1,49 @@
-# team-a-python
+# python-template
 [![CI Python](https://github.com/vchrombie/team-a-python/actions/workflows/ci-python.yml/badge.svg?branch=master)](https://github.com/vchrombie/team-a-python/actions/workflows/ci-python.yml)
 
-Technology Template Repository for Python
+This is a template repository for Python projects that provides a starting point for designing and developing Python applications. It includes a basic project structure, configuration for continuous integration, static analysis, code formatting, and more. You can use this template as a foundation for your Python projects.
+
+## Features
+
+- **Programming language**: [Python](https://www.python.org/)
+- **Runtime environment**: [Python 3.9](https://docs.python.org/3/library/python.html)
+- **Testing framework**: [pytest](https://docs.pytest.org/en/7.4.x/)
+- **Continuous Integration**: [GitHub Actions](https://docs.github.com/en/actions)
+- **Static analysis**: [flake8](https://github.com/PyCQA/flake8)
+- **Code formatting**: [black](https://github.com/psf/black)
+- **Package manager**: [Poetry](https://python-poetry.org/)
+- **License**: [MIT](LICENSE)
+
+## Getting started
+
+1. Click the `Use this template` button to [create a new repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+2. Clone your new repository to your local machine.
+    ```bash
+    git clone https://github.com/vchrombie/python-template
+    ```
+3. Install the required dependencies using Poetry.
+    ```bash
+    poetry install
+    ```
+4. Activate the virtual environment using Poetry.
+    ```bash
+    poetry shell
+    ```
+5. Run tests using pytest.
+    ```bash
+    pytest
+    ```
+6. Run static analysis using flake8.
+    ```bash
+    flake8
+    ```
+7. Run code formatting using black.
+    ```bash
+    black .
+    ```
+8. Start building your project!
+9. You can add the source code of your project to the `src` directory and tests to the `tests` directory.
+10. Push your changes to the `master` branch of your repository to trigger a CI build on GitHub Actions.
 
 ## Team 🅰️
 
@@ -10,26 +52,3 @@ Technology Template Repository for Python
 - Sonia Susanto
 - Yamini Lakshmi Narasimhan
 - Venu Vardhan Reddy Tekula
-
----
-
-> You can remove all the text below this line when you make your own repo.
-
-## Create a “Technology Template” Repository
-
-- [x] A programming language is selected - [Python](https://www.python.org/)
-- [x] A toolchain / runtime environment is selected - [Python](https://docs.python.org/3/library/python.html)
-- [x] A testing framework is selected - [pytest](https://docs.pytest.org/en/7.4.x/)
-- [x] A continuous integration solution is selected - [GitHub Actions](https://docs.github.com/en/actions)
-- [x] A static analysis solution is selected - [flake8](https://github.com/PyCQA/flake8)
-- [x] A code formatting solution is selected - [black](https://github.com/psf/black)
-- [x] A package manager solution is selected - [Poetry](https://python-poetry.org/)
-- [x] A template git repo is created - [vchrombie/team-a-python](https://github.com/vchrombie/team-a-python)
-- [x] Static analysis and code formatting are pre-configured - [.flake8](.flake8) and [pyproject.toml](pyproject.toml)
-- [x] There is a “Hello World” program in the repo - [main/main.py](main/main.py)
-- [x] There is a test in the repo that asserts that 2 + 2 == 4 - [tests/test_main.py](tests/test_main.py)
-- [x] There is a CI pipeline that runs the test - [.github/workflows/ci-python.yml](.github/workflows/ci-python.yml)
-- [x] A README.md file describes how to use repo - [README.md](README.md)
-- [x] The repo should have an appropriate .gitignore - [.gitignore](.gitignore)
-- [x] The repo should have an appropriate license - [LICENSE](LICENSE)
-- [ ] The repo is in https://github.com/NYUOSS 
